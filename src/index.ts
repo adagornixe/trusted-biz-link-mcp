@@ -8,8 +8,8 @@ app.use(express.json());
 
 // Supabase client
 const supabase = createClient(
-  process.env.SUPABASE_URL || "http://supabase-supabase-g4hocv:8000",
-  process.env.SUPABASE_SERVICE_KEY || ""
+  process.env.SUPABASE_URL || "http://localhost:8000",
+  process.env.SUPABASE_SERVICE_KEY || "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NjgxNTkwNTMsImV4cCI6MTg5MzQ1NjAwMCwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlzcyI6InN1cGFiYXNlIn0.zFABHlPPUJl7zwUGoC-wxQtEwhj6VnUOENrN3XHlioc"
 );
 
 // MCP Server
